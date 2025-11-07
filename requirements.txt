@@ -1,6 +1,10 @@
 Django>=5.0
 jupyter
 langchain-openai
+langchain-google-genai
+langchain-perplexity
 langchain
+langgraph-supervisor
 python-decouple
 permit
+rich
