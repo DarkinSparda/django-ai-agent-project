@@ -10,7 +10,7 @@ def get_ai_api_key():
     return api
 
 
-def get_ai_model(model="sonar"):
+def get_ai_model(model="sonar-pro"):
 
     return ChatPerplexity(
         model=model,
