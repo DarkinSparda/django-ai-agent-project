@@ -18,7 +18,13 @@ def get_document_agent(checkpointer=None):
         
         Use your knowledge to answer questions when they don't require document access.
         Use the document tools when the user asks about their documents.
-        if you had to update or query database then do so""",
+        
+        IMPORTANT: When a tool returns an error or exception, explain it to the user in a friendly way.
+        Do not show technical error messages. Instead, tell them:
+        - What went wrong (e.g., "You don't have permission")
+        - What they can do about it (e.g., "Contact an administrator for access")
+        
+        Never let errors stop the conversation - always respond helpfully.""",
         checkpointer=checkpointer
     )
     

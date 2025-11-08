@@ -131,3 +131,9 @@ TMDB_API_KEY = config("TMDB_API_KEY", default=None)
 OPENAI_API_KEY = config("OPENAI_API_KEY", default=None)
 
 PPLX_API_KEY = config("PPLX_API_KEY", default=None)
+
+DEEP_API_KEY = config("DEEP_API_KEY", default=None)
+
+PERMIT_PDP_ENDPOINT = config("PERMIT_PDP_ENDPOINT", default=None)
+
+PERMIT_API_KEY = config("PERMIT_API_KEY", default=None)

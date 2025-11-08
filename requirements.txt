@@ -3,6 +3,7 @@ jupyter
 langchain-openai
 langchain-google-genai
 langchain-perplexity
+langchain-deepseek
 langchain
 langgraph-supervisor
 python-decouple
